@@ -1,0 +1,9 @@
+repos:
+- repo: https://github.com/LakshmideviDE/black_python_module.git
+- rev: v2.3.0- hooks:
+-   id: check-yaml
+-   id: end-of-file-fixer
+-   id: trailing-whitespace
+-   repo: https://github.com/psf/black
+- rev: 22.10.0hooks:
+-   id: black
